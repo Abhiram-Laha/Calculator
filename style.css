@@ -1,7 +1,7 @@
 body{
     background-image:url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png") ;
-    background-repeat: no-repeat;
-    background-size: fill;
+    background-repeat: repeat-y;
+    background-size:cover;
 }
 
 .container{
@@ -26,10 +26,6 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-weight: bolder;
     box-shadow: 1px 2px rgb(107, 105, 100);
-}
-
-.button:active{
-   
 }
 
 .red{
@@ -73,5 +69,8 @@ footer{
   position: absolute;
   bottom: 0;
   right: 42%;
-  text-align: center;
+  display: flex; 
+  
+  
+ 
 }
