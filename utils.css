@@ -1,0 +1,26 @@
+.text-center{
+    text-align: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.bg-color{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.mw{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.item-centre{
+    align-items: center;
+}
